@@ -70,6 +70,26 @@
             bindings = <&kp MINUS>;
             key-positions = <9 8>;
         };
+
+        Desktop_R_R {
+            bindings = <&kp RG(RC(RIGHT_ARROW))>;
+            key-positions = <20 19 18 41>;
+        };
+
+        Desktop_L_R {
+            bindings = <&kp RG(RC(LEFT_ARROW))>;
+            key-positions = <20 19 18 40>;
+        };
+
+        Desktop_R_L {
+            bindings = <&kp RG(RC(RIGHT_ARROW))>;
+            key-positions = <39 11 12 13>;
+        };
+
+        Desktop_L_L {
+            bindings = <&kp RG(RC(LEFT_ARROW))>;
+            key-positions = <38 13 12 11>;
+        };
     };
 
     macros {
@@ -100,7 +120,7 @@
 &kp Q               &kp W         &kp E         &kp R                       &kp T                                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &lt 5 P
 &mt LEFT_CONTROL A  &kp S         &kp D         &kp F                       &kp G                   &kp ESCAPE                       &kp ESCAPE                   &kp H                   &kp J  &kp K      &lt 4 L  &mt RCTRL SEMICOLON
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                       &kp B                   &kp LEFT_BRACKET                 &kp RIGHT_BRACKET            &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 BACKSPACE  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &lt_to_layer_0 3 LANGUAGE_2  &lt_to_layer_0 2 ENTER                             &lt_to_layer_0 6 DELETE
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 BACKSPACE  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &lt_to_layer_0 3 LANGUAGE_1  &lt_to_layer_0 2 ENTER                             &lt_to_layer_0 6 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
