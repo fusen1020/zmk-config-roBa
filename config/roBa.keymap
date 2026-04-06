@@ -123,7 +123,7 @@
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 BACKSPACE  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &lt_to_layer_0 3 LANGUAGE_1  &lt_to_layer_0 2 ENTER                             &lt_to_layer_0 6 DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;
         };
 
         FUNCTION {
